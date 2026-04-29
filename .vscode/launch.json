@@ -1,0 +1,24 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "FrmTemperaturas",
+            "request": "launch",
+            "mainClass": "FrmTemperaturas",
+            "projectName": "Examen 3_2dabda64"
+        },
+        {
+            "type": "java",
+            "name": "Ejecutar Temperatura",
+            "request": "launch",
+            "mainClass": "App",
+            "classPaths": [
+                "${workspaceFolder}/bin",
+                "${workspaceFolder}/lib/DateChooser.jar",
+                "${workspaceFolder}/lib/jcommon-1.0.24.jar",
+                "${workspaceFolder}/lib/jfreechart-1.5.4.jar"
+            ]
+        }
+    ]
+}
