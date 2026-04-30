@@ -40,10 +40,6 @@ public class FrmTemperaturas extends JFrame {
 
     private List<TemperaturaCiudad> datos;
 
-    public static void main(String[] args) throws Exception {
-        new FrmTemperaturas().setVisible(true);
-    }
-
     public FrmTemperaturas() {
 
         setTitle("Temperaturas por Ciudad");
